@@ -26,7 +26,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="07e180c8-a2a3-4f0e-a2aa-138e18fe102d">
-        <schema name="admin" object-types="procedure, function, view, table" />
+        <schema name="admin" object-types="dataset trigger, function, table, index, procedure, column, constraint, view" />
       </connection>
     </loaded-nodes>
   </component>
@@ -36,10 +36,17 @@
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="07e180c8-a2a3-4f0e-a2aa-138e18fe102d" object-ref="schemas/admin/tables/products_user" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="07e180c8-a2a3-4f0e-a2aa-138e18fe102d" />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="07e180c8-a2a3-4f0e-a2aa-138e18fe102d" dataset="admin.products_user" active-filter-id="caa042d6-dc86-425d-b959-1a1d9e705ea4">
+      <filter id="caa042d6-dc86-425d-b959-1a1d9e705ea4" name="Filter" temporary="false" custom-name="false" type="basic" join-type="AND" />
+    </filter-actions>
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -246,7 +253,7 @@
     </dataset-grid-settings>
     <dataset-editor-settings>
       <text-editor-popup>
-        <active value="false" />
+        <active value="true" />
         <active-if-empty value="false" />
         <data-length-threshold value="100" />
         <popup-delay value="1000" />
@@ -266,7 +273,7 @@
       </general>
       <filters>
         <prompt-filter-dialog value="true" />
-        <default-filter-type value="BASIC" />
+        <default-filter-type value="NONE" />
       </filters>
       <qualified-text-editor text-length-threshold="300">
         <content-types>
