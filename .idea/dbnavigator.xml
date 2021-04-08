@@ -26,7 +26,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="07e180c8-a2a3-4f0e-a2aa-138e18fe102d">
-        <schema name="admin" object-types="procedure, table, column, view, dataset trigger, function, index, constraint" />
+        <schema name="admin" object-types="view, function, table, procedure" />
       </connection>
     </loaded-nodes>
   </component>
@@ -36,14 +36,13 @@
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="07e180c8-a2a3-4f0e-a2aa-138e18fe102d" object-ref="schemas/admin/tables/products_user" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="07e180c8-a2a3-4f0e-a2aa-138e18fe102d" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="07e180c8-a2a3-4f0e-a2aa-138e18fe102d" dataset="admin.products_product" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="07e180c8-a2a3-4f0e-a2aa-138e18fe102d" dataset="admin.products_user" active-filter-id="caa042d6-dc86-425d-b959-1a1d9e705ea4">
       <filter id="caa042d6-dc86-425d-b959-1a1d9e705ea4" name="Filter" temporary="false" custom-name="false" type="basic" join-type="AND" />
     </filter-actions>
